@@ -1,0 +1,11 @@
+dn: cn=mahmut,ou=moodleusers,dc=debuntu,dc=local
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetorgperson
+objectClass: top
+cn: mahmut
+sn: kuru
+telephoneNumber: 12356
+postalCode: 55050
+userPassword: {SSHA}0lPRlGIfctQg8wYdn/8DctngLfryuNMV
+

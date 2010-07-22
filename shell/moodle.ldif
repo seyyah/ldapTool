@@ -1,0 +1,14 @@
+# dn: ou=moodleusers,dc=debuntu,dc=local
+# objectClass: organizationalUnit
+# objectClass: top
+# ou: moodleusers
+
+dn: cn=creators,ou=moodleusers,dc=debuntu,dc=local
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetorgperson
+objectClass: top
+cn: creators
+sn: m
+telephoneNumber: 12356
+postalCode: 55050

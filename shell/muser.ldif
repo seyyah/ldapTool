@@ -1,0 +1,41 @@
+dn: ou=moodleusers,dc=debuntu,dc=local
+objectClass:organizationalUnit
+objectClass: top
+ou: moodleusers
+
+dn: cn=guest,ou=moodleusers,dc=debuntu,dc=local
+objectClass: inetOrgPerson
+uid: guest
+givenName: Guest User
+sn:  
+mail: root@localhost
+userPassword: {MD5}CE4DQ6BIb/BVMN9scFyLtA==
+
+
+dn: cn=moodle,ou=moodleusers,dc=debuntu,dc=local
+objectClass: inetOrgPerson
+uid: moodle
+givenName: Admin
+sn: User
+mail: nurettins@bil.omu.edu.tr
+userPassword: {MD5}laBi5pYA91KuyVLgyoCiIA==
+
+
+dn: cn=test,ou=moodleusers,dc=debuntu,dc=local
+objectClass: inetOrgPerson
+uid: test
+givenName: test
+sn: test
+mail: test@bil.omu
+userPassword: {MD5}ofDWJ4N+OTCFftj5hhitMA==
+
+
+dn: cn=ldap,ou=moodleusers,dc=debuntu,dc=local
+objectClass: inetOrgPerson
+uid: ldap
+givenName: ldap
+sn: test
+mail: ldap@bil.omu
+userPassword: {MD5}ofDWJ4N+OTCFftj5hhitMA==
+
+
