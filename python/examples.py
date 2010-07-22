@@ -44,5 +44,4 @@ for dn, entry in data:
 	ldap_entry_tolower(entry)
 	user = ldap_entry2user(entry)
 	
-	print "cn = %s, sn = %s, telephonenumber = %s, postalcode = %s" % \
-		(user["cn"], user["sn"], user["telephonenumber"], user["postalcode"])
+	print "cn = %(cn)s, sn = %(sn)s, telephonenumber = %(telephonenumber)s, postalcode = %(postalcode)s" % user
